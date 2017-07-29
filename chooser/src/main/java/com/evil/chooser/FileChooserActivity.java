@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.CheckedTextView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -37,7 +36,7 @@ public class FileChooserActivity extends BaseActivity implements View.OnClickLis
     private LinearLayout mContent;
     //    private TextView mTvDay;
     private TextView mTvSelectDir;
-    private CheckBox mRbYuantu;
+//    private CheckBox mRbYuantu;
     private CheckedTextView mCtvLook;
     private CheckedTextView mCtvSelect;
     private View mBg;
@@ -62,7 +61,7 @@ public class FileChooserActivity extends BaseActivity implements View.OnClickLis
         mContent = (LinearLayout) findViewById(R.id.content);
         //        mTvDay = (TextView) findViewById(R.id.tv_day);
         mTvSelectDir = (TextView) findViewById(R.id.tv_select_dir);
-        mRbYuantu = (CheckBox) findViewById(R.id.rb_yuantu);
+//        mRbYuantu = (CheckBox) findViewById(R.id.rb_yuantu);
         mCtvLook = (CheckedTextView) findViewById(R.id.ctv_look);
         mCtvSelect = (CheckedTextView) findViewById(R.id.ctv_select);
         mBg = findViewById(R.id.bg);
