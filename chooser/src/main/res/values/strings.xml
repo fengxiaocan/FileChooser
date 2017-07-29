@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">chooser</string>
+    <string name="a_photo_title_photo_text">图片</string>
+    <string name="a_photo_title_vodeo_text">视频</string>
+    <string name="a_photo_title_av_text">图片和视频</string>
+    <string name="a_photo_edit_text">编辑</string>
+    <string name="a_photo_num_text">%1$d张</string>
+    <string name="a_photo_select_text">选择</string>
+    <string name="a_photo_select_max_text">你最多只能选择%1$d个图片或者视频</string>
+    <string name="a_photo_select_day_text">这个月</string>
+    <string name="a_photo_look_text">预览</string>
+    <string name="a_photo_yuantu_text">原图</string>
+    <string name="open_chooser_fail">打开选择器失败</string>
+</resources>

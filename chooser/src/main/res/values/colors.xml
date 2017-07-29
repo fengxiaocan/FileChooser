@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18AD17</color>
+    <color name="colorPrimaryDark">#18AD17</color>
+    <color name="colorAccent">#18AD17</color>
+    <color name="colorSecondary">#ffffff</color>
+
+    <color name="a_photo_bg">#393A3E</color>
+    <color name="a_photo_title_bg">#393A3E</color>
+    <color name="a_photo_text_color">#ffffff</color>
+    <color name="a_photo_select_bg_check">#18AD17</color>
+    <color name="a_photo_select_bg_uncheck">#2C672D</color>
+    <color name="a_photo_select_tc_check">#ffffff</color>
+    <color name="a_photo_select_tc_uncheck">#779968</color>
+    <color name="a_photo_look_tc_check">#ffffff</color>
+    <color name="a_photo_look_tc_uncheck">#afafaf</color>
+    <color name="a_photo_day_bg">#66000000</color>
+    <color name="a_photo_content_bg">#000000</color>
+    <color name="a_photo_text_grey_color">#444444</color>
+    <color name="check_box_color_check">#18AD17</color>
+    <color name="a_photo_isyuantu_color">#ffffff</color>
+    <color name="f_photo_bg">#000000</color>
+    <color name="f_photo_unselect_screen_bg">#22000000</color>
+    <color name="f_photo_select_screen_bg">#55000000</color>
+</resources>

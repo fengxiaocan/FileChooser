@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/a_photo_bg"
+             android:orientation="vertical"
+             app:theme="@style/AppTheme">
+
+    <com.evil.chooser.ui.HackyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/a_photo_content_bg"
+        android:orientation="vertical"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#3000">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/back_icon"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/iv_back"
+            android:text="0/0"
+            android:textColor="@color/a_photo_text_color"
+            android:textSize="16sp"/>
+
+        <!--<TextView-->
+        <!--android:id="@+id/ctv_select"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:background="@drawable/shape_a_photo_select_bg_check"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:text="@string/a_photo_select_text"-->
+        <!--android:textColor="@color/a_photo_select_tc_check"-->
+        <!--android:textSize="16sp"/>-->
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rl_bootom"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="@color/a_photo_title_bg">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_select_dir"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:drawablePadding="10dp"-->
+    <!--android:text="@string/a_photo_edit_text"-->
+    <!--android:textColor="@color/a_photo_text_color"-->
+    <!--android:textSize="16sp"/>-->
+
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/rb_yuantu"-->
+    <!--style="@style/Widget.AppCompat.CompoundButton.RadioButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:text="@string/a_photo_yuantu_text"-->
+    <!--android:textColor="@color/a_photo_isyuantu_color"-->
+    <!--android:textSize="16sp"/>-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/checkbox"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:text="@string/a_photo_select_text"-->
+    <!--android:textColor="@color/a_photo_text_color"-->
+    <!--android:textSize="16sp"/>-->
+
+
+    <!--</RelativeLayout>-->
+</FrameLayout>

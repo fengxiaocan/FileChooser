@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/a_photo_bg"
+              android:orientation="vertical"
+              app:theme="@style/AppTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/a_photo_title_bg">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/back_icon"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/iv_back"
+            android:text="@string/a_photo_title_photo_text"
+            android:textColor="@color/a_photo_text_color"
+            android:textSize="16sp"/>
+
+        <CheckedTextView
+            android:id="@+id/ctv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/a_photo_select_bg"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/a_photo_select_text"
+            android:textColor="@color/a_photo_select_text_colors"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1">-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/a_photo_content_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/a_photo_content_bg"
+            android:orientation="vertical"/>
+
+        <View
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="#c000"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:animateLayoutChanges="true"
+            android:background="#fff"
+            android:divider="#333"
+            android:dividerHeight="1px"
+            android:padding="5dp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_day"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/a_photo_day_bg"-->
+    <!--android:padding="3dp"-->
+    <!--android:text="@string/a_photo_select_day_text"-->
+    <!--android:textColor="@color/a_photo_text_color"-->
+    <!--android:textSize="12sp"-->
+    <!--android:visibility="gone"/>-->
+    <!--</FrameLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/a_photo_title_bg">
+
+        <TextView
+            android:id="@+id/tv_select_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:drawablePadding="10dp"
+            android:text="@string/a_photo_title_photo_text"
+            android:drawableRight="@drawable/apa"
+            android:textColor="@color/a_photo_text_color"
+            android:textSize="16sp"/>
+
+        <!--<ImageView-->
+            <!--android:layout_width="13dp"-->
+            <!--android:layout_height="13dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_toRightOf="@+id/tv_select_dir"-->
+            <!--android:background="@drawable/apa"/>-->
+
+        <CheckBox
+            android:id="@+id/rb_yuantu"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="5dp"
+            android:text="@string/a_photo_yuantu_text"
+            android:textColor="@color/a_photo_isyuantu_color"
+            android:textSize="16sp"/>
+
+        <CheckedTextView
+            android:id="@+id/ctv_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/a_photo_look_text"
+            android:textColor="@color/a_photo_look_text_colors"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+</LinearLayout>
